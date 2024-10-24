@@ -1,7 +1,7 @@
 from setuptools import setup, find_packages
 
 setup(
-    name='fancytitle',
+    name='fancy-title',
     version='0.1.0',
     description='Evaluation metrics for your title.',
     author='Shaobo Cui',
