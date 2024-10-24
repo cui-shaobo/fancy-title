@@ -112,5 +112,32 @@ The `from_inputs` class method accepts the following parameters:
 
 We welcome contributions! If you’d like to improve this project, please feel free to fork the repository and submit a pull request with your enhancements.
 
+## Citation
+
+If you find this package helpful, please star [this repository](https://github.com/cui-shaobo/fancy-title) and the related repository: [logogram](https://github.com/cui-shaobo/logogram). For academic purposes, please cite our paper:
+
+```bibtex
+@inproceedings{cui-etal-2024-unveiling,
+    title = "Unveiling the Art of Heading Design: A Harmonious Blend of Summarization, Neology, and Algorithm",
+    author = "Cui, Shaobo  and
+      Feng, Yiyang  and
+      Mao, Yisong  and
+      Hou, Yifan  and
+      Faltings, Boi",
+    editor = "Ku, Lun-Wei  and
+      Martins, Andre  and
+      Srikumar, Vivek",
+    booktitle = "Findings of the Association for Computational Linguistics ACL 2024",
+    month = aug,
+    year = "2024",
+    address = "Bangkok, Thailand and virtual meeting",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2024.findings-acl.368",
+    doi = "10.18653/v1/2024.findings-acl.368",
+    pages = "6149--6174"
+}
+```
+
+
 ## License
 
