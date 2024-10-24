@@ -40,8 +40,21 @@ shorthand = "RoBERTa"
 # Use class method to instantiate and evaluate
 final_scores = TitleEvaluator.fancy_title_score(description, shorthand, lowercase=True)
 ```
+This will now output the following without errors:
 
-This will output the computed scores for each metric, such as WordLikeness, WordCoverage, and LCSRatio.
+```plaintext
+Evaluation Results:
+============================================================
+
+Description: a robustly optimized pretraining approach for language models
+Shorthand: roberta
+------------------------------------------------------------
+WordLikeness: 0.5714285714285714
+WordCoverage: 0.9230769230769231
+LCSRatio: 1.0
+============================================================
+```
+
 
 ### Example with Multiple Propositions:
 ```python
@@ -59,6 +72,29 @@ shorthands = {
 final_scores = TitleEvaluator.from_inputs(descriptions, shorthands, lowercase=True)
 
 ```
+
+This will now output the following without errors:
+```plaintext
+Evaluation Results:
+============================================================
+
+Description: a robustly optimized bert pretraining approach
+Shorthand: roberta
+------------------------------------------------------------
+WordLikeness: 0.5714285714285714
+WordCoverage: 0.9230769230769231
+LCSRatio: 1.0
+============================================================
+
+Description: a training approach for language models
+Shorthand: atalm
+------------------------------------------------------------
+WordLikeness: 0.6
+WordCoverage: 0.8
+LCSRatio: 1.0
+============================================================
+```
+
 
 
 ### Parameters for Evaluation
