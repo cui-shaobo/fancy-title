@@ -1,4 +1,4 @@
-from goodtitle.evaluator import TitleEvaluator
+from fancytitle.evaluator import TitleEvaluator
 
 # Prepare your references and hypotheses as dictionaries
 refs = {

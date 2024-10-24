@@ -1,6 +1,6 @@
-# A Good Title Matters
+# A Fancy Title Matters
 
-`goodheading` is a Python package that provides evaluation metrics for generated shorthands, including:
+`fancytitle` is a Python package that provides evaluation metrics for generated shorthands, including:
 
 - **WordLikeness**
 - **WordCoverage**
@@ -8,10 +8,10 @@
 
 ## Installation
 
-You can install `goodheading` directly from the source code:
+You can install `fancytitle` directly from the source code:
 
 ```bash
 git clone https://github.com/yourusername/goodheading.git
-cd goodtitle
+cd fancytitle
 pip install .
 ```
