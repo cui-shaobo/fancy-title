@@ -1,5 +1,5 @@
 <small>EN | [简体中文](README_zh.md) </small>
-# A Fancy Title Matters
+# 📝 A Fancy Title Matters 
 
 `fancytitle` is a Python package that offers various evaluation metrics for generating concise and engaging titles, including:
 
@@ -7,13 +7,13 @@
 - **WordCoverage**: Evaluates the extent of overlap between the acronym and its description.
 - **LCSRatio**: Checks the consistency between the acronym and the sequence of letters in its description.
 
-## Key Features
+## 🌟 Key Features ![Key Features](https://img.shields.io/badge/Key_Features-Highlights-orange) 
 
 - **Summarization**: Generates descriptions that encapsulate the key idea of a text, such as paper abstracts or article summaries.
 - **Neology**: Suggests new, memorable acronyms from the description while adhering to acronym generation constraints.
 - **Algorithmic Precision**: Ensures the acronym derives letters sequentially from its description for better clarity and cohesion.
 
-## Installation
+## 🚀  Installation ![Installation](https://img.shields.io/badge/Installation-Guide-blue)
 
 You can install `fancytitle` directly from the source code:
 
@@ -23,7 +23,7 @@ cd fancytitle
 pip install .
 ```
 
-## Usage
+## 🛠️ Usage ![Usage](https://img.shields.io/badge/Usage-Instructions-green)
 
 ### 1. Using as a Python Script
 
@@ -109,11 +109,14 @@ The `fancy_title_score` class method accepts the following parameters:
 - **lcsratio** (bool): Whether to compute the LCSRatio metric (default: `True`).
 - **lowercase** (bool): Whether to convert all inputs to lowercase before evaluation (default: `False`).
 
-## Contributing
+## 🤝 Contributing [![Contributing](https://img.shields.io/badge/Contributing-Welcome-blue)](./CONTRIBUTING.md) 
+
+
+
 
 We welcome contributions! If you’d like to improve this project, please feel free to fork the repository and submit a pull request with your enhancements.
 
-## Citation
+## 📜 Citation ![Citation](https://img.shields.io/badge/Citation-Required-green) 
 
 If you find this package helpful, please star [this repository](https://github.com/cui-shaobo/fancy-title) and the related repository: [logogram](https://github.com/cui-shaobo/logogram). For academic purposes, please cite our paper:
 
@@ -140,5 +143,5 @@ If you find this package helpful, please star [this repository](https://github.c
 ```
 
 
-## License
+## ![License](https://img.shields.io/badge/License-MIT-blue)
 
