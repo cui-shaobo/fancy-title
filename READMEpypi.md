@@ -1,4 +1,7 @@
 <small>EN | [简体中文](https://github.com/cui-shaobo/fancy-title/blob/main/README_zh.md) </small>
+
+More information can be found in our github: [fancy-title](https://github.com/cui-shaobo/fancy-title/) 
+
 # 📝 A Fancy Title Matters 
 
 `fancy-title` is a Python package designed to generate, evaluate, and optimize concise and engaging titles or acronyms. It offers multiple evaluation metrics to ensure the consistency, readability, and creativity of these titles. The package helps you create effective acronyms by balancing three key factors:

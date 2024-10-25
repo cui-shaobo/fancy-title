@@ -9,7 +9,6 @@ setup(
     description='Evaluation metrics for your title.',
     long_description=readme,
     long_description_content_type="text/markdown",
-    author='Shaobo Cui',
     author_email='shaobo.cui@epfl.ch',
     license='MIT',
     url='https://github.com/cui-shaobo/fancy-title',
