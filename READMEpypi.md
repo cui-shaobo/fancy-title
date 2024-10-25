@@ -1,4 +1,4 @@
-<small>EN | [简体中文](README_zh.md) </small>
+<small>EN | [简体中文](https://github.com/cui-shaobo/fancy-title/blob/main/README_zh.md) </small>
 # 📝 A Fancy Title Matters 
 
 `fancy-title` is a Python package designed to generate, evaluate, and optimize concise and engaging titles or acronyms. It offers multiple evaluation metrics to ensure the consistency, readability, and creativity of these titles. The package helps you create effective acronyms by balancing three key factors:
@@ -8,6 +8,7 @@
 
 ## Example Figure
 To illustrate the relationship between shorthand, description, and the various constraints, consider the following example:
+![Example Image](https://github.com/cui-shaobo/fancy-title/raw/main/images/example.png)
 
 
 For example, the shorthand `RoBERTa` stands for the description "A Robustly Optimized BERT Pretraining Approach." `fancytitle` will evaluate how well the shorthand aligns with its description based on several metrics:

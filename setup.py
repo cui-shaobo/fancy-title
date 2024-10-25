@@ -1,6 +1,6 @@
 from setuptools import setup, find_packages
 
-readme = open('README_pypi.md').read()
+readme = open('READMEpypi.md').read()
 
 
 setup(
