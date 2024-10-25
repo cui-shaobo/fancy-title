@@ -1,7 +1,7 @@
 <small>EN | [简体中文](README_zh.md) </small>
 # 📝 A Fancy Title Matters 
 
-`fancytitle` is a Python package designed to generate, evaluate, and optimize concise and engaging titles or acronyms. It offers multiple evaluation metrics to ensure the consistency, readability, and creativity of these titles. The package helps you create effective acronyms by balancing three key factors:
+`fancy-title` is a Python package designed to generate, evaluate, and optimize concise and engaging titles or acronyms. It offers multiple evaluation metrics to ensure the consistency, readability, and creativity of these titles. The package helps you create effective acronyms by balancing three key factors:
 
 - **Shorthand**: The acronym or abbreviated title.
 - **Description**: The full text or explanation that the acronym is derived from.
@@ -26,17 +26,17 @@ For example, the shorthand `RoBERTa` stands for the description "A Robustly Opti
 
 ## 🚀  Installation ![Installation](https://img.shields.io/badge/Installation-Guide-blue)
 
-You can install `fancytitle` directly from the source code:
+You can install `fancy-title` directly from the source code:
 
 ```bash
-git clone https://github.com/cui-shaobo/goodtitle.git
+git clone https://github.com/cui-shaobo/fancy-title.git
 cd fancytitle
 pip install .
 ```
 
 Or, install it directly from PyPI:
 ```bash
-pip install fancy-title
+pip install fancy-title==0.0.1
 ```
 
 
