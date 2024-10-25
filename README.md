@@ -1,3 +1,4 @@
+<small>EN | [简体中文](README_zh.md) </small>
 # A Fancy Title Matters
 
 `fancytitle` is a Python package that offers various evaluation metrics for generating concise and engaging titles, including:
@@ -69,7 +70,7 @@ shorthands = {
 }
 
 # Use class method to instantiate and evaluate
-final_scores = TitleEvaluator.from_inputs(descriptions, shorthands, lowercase=True)
+final_scores = TitleEvaluator.fancy_title_score(descriptions, shorthands, lowercase=True)
 
 ```
 
@@ -99,7 +100,7 @@ LCSRatio: 1.0
 
 ### Parameters for Evaluation
 
-The `from_inputs` class method accepts the following parameters:
+The `fancy_title_score` class method accepts the following parameters:
 
 - **descriptions** (dict): Dictionary where keys are examples and values are lists of descriptions.
 - **shorthands** (dict): Dictionary where keys are examples and values are lists of acronyms.
