@@ -36,7 +36,7 @@ pip install .
 
 Or, install it directly from PyPI:
 ```bash
-pip install fancy-title==0.0.1
+pip install fancy-title
 ```
 
 
