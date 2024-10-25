@@ -11,7 +11,7 @@ class LCSRatio(object):
     """
     Class for computing LCARatio score for generated shorthands.
     Note that this evaluation metric doesn't use the ground truth for evaluation.
-    Besides, LCARatio is case-insensitive.
+    Besides, LCSRatio is case-insensitive.
     """
 
     def __init__(self, tokenizer_type='t5-base'):

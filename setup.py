@@ -1,12 +1,12 @@
 from setuptools import setup, find_packages
 
 setup(
-    name='goodtitle',
+    name='fancy-title',
     version='0.1.0',
     description='Evaluation metrics for your title.',
     author='Shaobo Cui',
     author_email='shaobo.cui@epfl.ch',
-    url='https://github.com/cui-shaobo/goodtitle',  # Replace with your URL
+    url='https://github.com/cui-shaobo/fancy-title',  # Replace with your URL
     packages=find_packages(),
     include_package_data=True,
     install_requires=[
@@ -14,6 +14,7 @@ setup(
         'pandas',
         'transformers',
         'tqdm',
+        'difflab',
     ],
     classifiers=[
         'Programming Language :: Python :: 3',

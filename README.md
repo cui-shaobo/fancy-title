@@ -34,6 +34,12 @@ cd fancytitle
 pip install .
 ```
 
+Or, install it directly from PyPI:
+```bash
+pip install fancy-title
+```
+
+
 ## 🛠️ Usage ![Usage](https://img.shields.io/badge/Usage-Instructions-green)
 
 ### 1. Using as a Python Script
