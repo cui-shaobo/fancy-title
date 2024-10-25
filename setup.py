@@ -1,12 +1,18 @@
 from setuptools import setup, find_packages
 
+readme = open('README_pypi.md').read()
+
+
 setup(
     name='fancy-title',
-    version='0.1.0',
+    version='0.0.1.0',
     description='Evaluation metrics for your title.',
+    long_description=readme,
+    long_description_content_type="text/markdown",
     author='Shaobo Cui',
     author_email='shaobo.cui@epfl.ch',
-    url='https://github.com/cui-shaobo/fancy-title',  # Replace with your URL
+    license='MIT',
+    url='https://github.com/cui-shaobo/fancy-title',
     packages=find_packages(),
     include_package_data=True,
     install_requires=[
@@ -14,8 +20,8 @@ setup(
         'pandas',
         'transformers',
         'tqdm',
-        'difflab',
     ],
+    python_requires='>=3.7',
     classifiers=[
         'Programming Language :: Python :: 3',
     ],
