@@ -1,11 +1,22 @@
 <small>EN | [简体中文](README_zh.md) </small>
 # 📝 A Fancy Title Matters 
 
-`fancytitle` is a Python package that offers various evaluation metrics for generating concise and engaging titles, including:
+`fancytitle` is a Python package designed to generate, evaluate, and optimize concise and engaging titles or acronyms. It offers multiple evaluation metrics to ensure the consistency, readability, and creativity of these titles. The package helps you create effective acronyms by balancing three key factors:
 
-- **WordLikeness**: Measures how much the generated acronym resembles a real word.
-- **WordCoverage**: Evaluates the extent of overlap between the acronym and its description.
-- **LCSRatio**: Checks the consistency between the acronym and the sequence of letters in its description.
+- **Shorthand**: The acronym or abbreviated title.
+- **Description**: The full text or explanation that the acronym is derived from.
+
+## Example Figure
+To illustrate the relationship between shorthand, description, and the various constraints, consider the following example:
+
+![Example Image](images/example.png)
+
+For example, the shorthand `RoBERTa` stands for the description "A Robustly Optimized BERT Pretraining Approach." `fancytitle` will evaluate how well the shorthand aligns with its description based on several metrics:
+
+- **WordLikeness**: Measures how much the acronym resembles a valid word.
+- **WordCoverage**: Evaluates the degree to which the acronym covers the words in its description.
+- **LCSRatio**: Checks if the acronym follows the sequence of letters from the description.
+
 
 ## 🌟 Key Features ![Key Features](https://img.shields.io/badge/Key_Features-Highlights-orange) 
 

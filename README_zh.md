@@ -1,19 +1,31 @@
 <small>中文 | [EN](README.md) </small>
 # 一个好的的标题很重要
 
-`fancytitle` 是一个 Python 包，提供了多种用于生成简洁且引人注目的标题的评估指标，包括：
+`fancytitle` 是一个用于生成、评估和优化简洁且引人入胜的标题或缩写的 Python 包。它提供多种评估指标，确保这些标题的一致性、可读性和创造性。该包帮助你通过平衡以下三个关键因素来创建有效的缩写：
 
-- **WordLikeness**：衡量生成的首字母缩略词与真实单词的相似程度。
-- **WordCoverage**：评估缩略词与其描述之间的重叠程度。
-- **LCSRatio**：检查缩略词与其描述中字母序列的一致性。
+- **Shorthand**: 缩写或简化的标题。
+- **Description**: 缩写来源的完整文本或解释。
 
-## 主要特性
+例如，缩写 `RoBERTa` 代表 "A Robustly Optimized BERT Pretraining Approach"。`fancytitle` 将基于多个指标评估缩写与其描述的匹配程度：
+
+- **WordLikeness**: 评估缩写与真实单词的相似程度。
+- **WordCoverage**: 评估缩写与描述中词汇的覆盖程度。
+- **LCSRatio**: 检查缩写是否遵循描述中字母的顺序。
+
+## 示例图
+
+为了说明缩写、描述以及各种限制条件之间的关系，请参考以下示例: 
+
+![Example Image](images/example.png)
+
+
+##  🌟 主要特性 ![Key Features](https://img.shields.io/badge/Key_Features-Highlights-orange) 
 
 - **摘要**：生成能够概括文本关键思想的描述，例如论文摘要或文章摘要。
 - **新词生成**：根据描述建议新的、易记的首字母缩略词，同时遵循缩略词生成的约束条件。
 - **算法精确度**：确保缩略词的字母按顺序从描述中提取，以提高清晰度和连贯性。
 
-## 安装
+## 🚀 安装 ![Installation](https://img.shields.io/badge/Installation-Guide-blue)
 
 您可以直接从源码安装 `fancytitle`：
 
@@ -23,7 +35,7 @@ cd fancytitle
 pip install .
 ```
 
-## 使用
+##  🛠️ 使用 ![Usage](https://img.shields.io/badge/Usage-Instructions-green)
 
 ### 1. 作为 Python 脚本使用
 
@@ -106,11 +118,11 @@ LCSRatio: 1.0
 - **lowercase** (bool)：是否在评估前将所有输入转换为小写（默认：`False`）。
 
 
-## 贡献
+## 🤝 贡献 [![Contributing](https://img.shields.io/badge/Contributing-Welcome-blue)](./CONTRIBUTING.md) 
 我们欢迎您的贡献！如果您想改进此项目，请随时 fork 仓库并提交包含您改进的 pull request。
 
-## 引用
-如果您觉得这个包有用，请给[这个仓库](https://github.com/cui-shaobo/fancy-title)和相关仓库：[logogram](https://github.com/cui-shaobo/logogram) 点赞。用于学术目的，请引用我们的论文：
+##  📜 引用 ![Citation](https://img.shields.io/badge/Citation-Required-green) 
+如果您觉得这个包有用，请给[this repository](https://github.com/cui-shaobo/fancy-title) 和相关仓库：[logogram](https://github.com/cui-shaobo/logogram) 点赞。用于学术目的，请引用我们的论文：
 ```bibtex
 @inproceedings{cui-etal-2024-unveiling,
     title = "Unveiling the Art of Heading Design: A Harmonious Blend of Summarization, Neology, and Algorithm",
