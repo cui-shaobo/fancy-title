@@ -5,6 +5,7 @@ import nltk
 import pandas as pd
 import os
 
+help(difflib)
 
 class WordCoverage(object):
     """

@@ -1,6 +1,14 @@
 <small>EN | [简体中文](README_zh.md) </small>
 # 📝 A Fancy Title Matters 
 
+<a href="https://aclanthology.org/2024.findings-acl.368/">
+    <img src="https://img.shields.io/badge/2024.findings-acl.368-blue.svg?style=flat-square" alt="ACL Anthology" />
+</a>
+<a href="https://pypi.org/project/angle_emb/">
+    <img src="https://img.shields.io/pypi/v/fancy-title?style=flat-square" alt="PyPI version" />
+</a>
+
+
 `fancy-title` is a Python package designed to generate, evaluate, and optimize concise and engaging titles or acronyms. It offers multiple evaluation metrics to ensure the consistency, readability, and creativity of these titles. The package helps you create effective acronyms by balancing three key factors:
 
 - **Shorthand**: The acronym or abbreviated title.
