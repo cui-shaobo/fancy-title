@@ -4,7 +4,7 @@
 <a href="https://aclanthology.org/2024.findings-acl.368/">
     <img src="https://img.shields.io/badge/2024.findings-acl.368-blue.svg?style=flat-square" alt="ACL Anthology" />
 </a>
-<a href="https://pypi.org/project/angle_emb/">
+<a href="https://pypi.org/project/fancy-title/">
     <img src="https://img.shields.io/pypi/v/fancy-title?style=flat-square" alt="PyPI version" />
 </a>
 
