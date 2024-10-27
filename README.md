@@ -19,7 +19,7 @@ To illustrate the relationship between shorthand, description, and the various c
 
 ![Example Image](images/example.png)
 
-For example, the shorthand `RoBERTa` stands for the description "A Robustly Optimized BERT Pretraining Approach." `fancytitle` will evaluate how well the shorthand aligns with its description based on several metrics:
+For example, the shorthand `RoBERTa` stands for the description "A Robustly Optimized BERT Pretraining Approach." `fancy-title` will evaluate how well the shorthand aligns with its description based on several metrics:
 
 - **WordLikeness**: Measures how much the acronym resembles a valid word.
 - **WordCoverage**: Evaluates the degree to which the acronym covers the words in its description.
@@ -38,7 +38,7 @@ You can install `fancy-title` directly from the source code:
 
 ```bash
 git clone https://github.com/cui-shaobo/fancy-title.git
-cd fancytitle
+cd fancy-title
 pip install .
 ```
 
@@ -52,7 +52,7 @@ pip install fancy-title
 
 ### 1. Using as a Python Script
 
-You can use `fancytitle` within a Python script for evaluating descriptions and their corresponding acronyms.
+You can use `fancy-title` within a Python script for evaluating descriptions and their corresponding acronyms.
 
 #### Example: Using the Class Method
 
