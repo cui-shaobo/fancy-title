@@ -25,6 +25,7 @@ For example, the shorthand `RoBERTa` stands for the description "A Robustly Opti
 - **WordCoverage**: Evaluates the degree to which the acronym covers the words in its description.
 - **LCSRatio**: Checks if the acronym follows the sequence of letters from the description.
 
+For all of these metrics, the higher, the better. The highest value is 1.0 while the lowest is 0.0. 
 
 ## 🌟 Key Features ![Key Features](https://img.shields.io/badge/Key_Features-Highlights-orange) 
 
